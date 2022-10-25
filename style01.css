@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.icons {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 22px;
+    margin: 5px;
+    text-align: left;
+    transform: translate(130px, 0px);
+    transition: all 0.5s;
+}
+.icons a:hover {
+    transform: translate(0px,0px);
+}
+.icons a i {
+    margin-right: 25px;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.face {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.inst {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.you {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.call {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.drop {
+    position: fixed;
+    top: 280px;
+    right: 0%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.drop a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 22px;
+    margin: 5px;
+    text-align: left;
+    transform: translate(130px, 0px);
+    transition: all 0.5s;
+}
+.drop a:hover {
+    transform: translate(0px,0px);
+}
+.drop a i {
+    margin-right: 25px;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.drop .menu{
+    background-color: #F27C00;
+    color: #FFFFFF;
+    
+}
+.courses {
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 220px;
+    margin-top: 65px;
+    margin-left: -20px;
+}
+.courses li {
+    color: black;
+    padding: 1px 2px;
+    text-decoration: none;
+    display: block;
+    list-style: none;
+    background-color: #F27C00;
+    font-family: montserrat;
+
+
+    
+}
+.courses li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    margin-left: -130px;
+}
+
+
+
+
+.content {
+    margin-top: -550px;
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+    margin-left: 650px;
+    font-family: sans-serif;
+}
+
+.vacate {
+    color: white;
+    font-size: 70px;
+    font-weight: 100;
+    margin-left: 650px;
+    font-family: sans-serif;
+}
+
+.stay {
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+    margin-left: 650px;
+    font-family: sans-serif;
+}
+
+.food {
+    color: white;
+    font-size: 70px;
+    font-weight: 100;
+    margin-left: 650px;
+    font-family: sans-serif;
+}
+
+
+
+.sidebar {
+    margin-top: -500px;
+    height: 810px;
+    width: 350px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    transition: 00.5s ease;
+    transform: translate(0);
+
+}
+
+
+.img{
+    margin-left: 80px;
+}
+
+.rooms{
+    margin-left: 130px;
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+
+.facilites{
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.about{
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.location{
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.contact{
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.click .book{
+    margin-top: 50px;
+    margin-left: 100px;
+  position: relative;
+  width: 150px;
+  height: 35px;
+  background: orange;
+  color: #FFFFFF;
+  outline: none;
+  border: none;
+  border-radius: 18px;
+}
+.check{
+    margin-top: 20px;
+    color: #FFFFFF;
+    margin-left: 90px;
+    font-family: sans-serif;
+}
+
+
+
+.room{
+    margin-top: -630px;
+    margin-left: 80px;
+}
+.room h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #19452C;
+}
+.room p{
+    margin-top: 20px;
+    color: #727674;
+    font-size: 30px;
+}
+.images {
+    margin-left: 700px;
+    margin-top: -520px;
+}
+.arrow{
+    margin-left: 500px; 
+    margin-top: -250px;
+}
+.arrow1{
+    margin-left: 1300px;
+    margin-top: -30px;
+}
+.facility{
+    margin-top: 250px;
+}
+.facility .kick h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #19452C;
+    margin-left: 50px;
+    
+}
+.facility p{
+    color: #727674;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 25px;
+    
+}
+.image1{
+    margin-left: 50px;
+    margin-top: -10px;
+    padding: 50px;
+}
+.courtyard{
+    margin-left: 100px;
+    margin-top: -50px;
+    color: #727674;
+    font-size: 25px;
+    font-family: sans-serif ;
+    
+}
+.farmwalk{
+    margin-left: 330px;
+    margin-top: -30px;
+    color: #727674;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.activityarea{
+    margin-left: 540px;
+    margin-top: -30px;
+    color: #727674;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.homemade{
+    margin-left: 780px;
+    margin-top: -30px;
+    color: #727674;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.running{
+    margin-left: 1030px;
+    margin-top: -70px;
+    color: #727674;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.taxi{
+    margin-left: 1230px;
+    margin-top: -50px;
+    color: #727674;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.new{
+    margin-top: 50px;
+}
+.gallery h1{
+    margin-top: -680px;
+    margin-left: 50px;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #19452C;
+}
+.house{
+    margin-left: 190px;
+    margin-top: 20px;
+}
+.yard{
+    margin-top: -500px;
+    margin-left: 900px;
+}
+.arrow2{
+    margin-top: 100px;
+    margin-left: 90px;
+}
+.arrow3{
+    margin-left: 1400px;
+    margin-top: 10px;
+}
+ 
+.imagi {
+    margin-top: 310px;
+}
+
+.area{
+    margin-left: 900px;
+    margin-top: 350px; 
+}
+
+.area p{
+    color: #727674;
+    font-family: sans-serif;
+}
+.area h4{
+    margin-left: 38px;
+    margin-top: -18px;
+    color: #727674;
+    font-family: sans-serif;
+}
+.population{
+    margin-left: 900px;
+    margin-top: -10px;
+}
+
+.population p{
+    color: #727674;
+    font-family: sans-serif;
+}
+.population h4{
+    margin-left: 80px;
+    margin-top: -18px;
+    color: #727674;
+    font-family: sans-serif;
+}
+.high{
+    margin-left: 900px;
+    margin-top: -10px;
+}
+
+.high p{
+    color: #727674;
+    font-family: sans-serif;
+}
+.high h4{
+    color: #727674;
+    margin-top: -10px;
+    font-family: sans-serif;
+}
+.std{
+    margin-left: 900px;
+    margin-top: -10px;
+}
+
+.std p{
+    color: #727674;
+    font-family: sans-serif;
+}
+.std h4{
+    margin-left: 78px;
+    margin-top: -18px;
+    color: #727674;
+    font-family: sans-serif;
+}
+
+
+.paradise{
+    margin-top: -180px;
+    margin-left: 250px;
+}
+.paradise h1{
+    color: #19452C;
+    font-family: sans-serif;
+    font-size: 40px;
+    }
+.paradise p{
+    color: #727674;
+    font-family: sans-serif;
+    margin-top: 10px;
+}    
+
+.places{
+    margin-top: 100px;
+    margin-left: 240px;
+}
+.places h1{
+    color: #19452C;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: -50px;
+}
+.places h2{
+     color: #727674;
+     margin-top: 20px;
+     font-family: sans-serif;
+     font-size: 20px;
+}
+.places p{
+     color: #727674;
+     font-family: sans-serif;
+     margin-top: 20px;
+}
+
+
+.verticle{
+    border-left: 3px solid silver;
+    height: 1000px;
+    position: absolute;
+    left: 50%;
+    margin-left: -4px;
+    margin-top: -930px;
+}
+.tholpetty{
+    margin-left: 900px;
+    margin-top: -850px;
+}
+.tholpetty .BUTTON1 a{
+    color: #F27C00;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.muthanga{
+    margin-left: 900px;
+    margin-top: 10px;
+}
+.muthanga .BUTTON2 a{
+    color: #F27C00;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+    
+.jain{
+    margin-left: 900px;
+    margin-top: 10px;
+
+}
+.jain .BUTTON3 a{
+    color: #F27C00;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.thirunelli{
+    margin-left: 900px;
+    margin-top: 10px;
+}
+.thirunelli .BUTTON4 a{
+    margin-top: -10px;
+    color: #F27C00;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.image3{
+    margin-top: -550px;
+    margin-left: 650px;
+    
+}
+.connectivity{
+    margin-top: -500px;
+}
+.connectivity h1{
+    color: #19452C ;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-top: -10px;
+}
+
+.connectivity h2{
+    color: #727674;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.connectivity p{
+    color: #727674;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+.contact1 h1{
+   margin-top: -350px;
+   margin-left: 50px;
+   color: #19452C;
+   font-family: sans-serif;
+   font-size: 40px;
+}
+
+.phone{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.phone h1{
+    margin-left: 70px;
+    margin-top: -55px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.msg {
+    margin-left: 450px;
+    margin-top: -55px;
+
+}
+.msg h1{
+    margin-left: 70px;
+    margin-top: -55px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.facebook{
+    margin-left: 900px;
+    margin-top: -55px;
+}
+.instagram{
+    margin-left: 1000px;
+    margin-top: -80px;
+}
+.youtube{
+    margin-left: 1100px;
+    margin-top: -80px;
+}
+.gigi{
+    margin-top: -350px;
+    margin-left: 100px;
+}
+.matter{
+    color: #FFFFFF;
+    margin-left: 100px;
+    font-family: sans-serif;
+    line-height: 35px;
+}
+.footer{
+    background: #000000;
+    margin-top: -30px;
+}
+.copy{
+    color: #FFFFFF;
+}
